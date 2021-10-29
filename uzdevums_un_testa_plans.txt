@@ -5,9 +5,12 @@ B10. Doti trīs naturāli skaitļi, kas nosaka datumu, mēnesi un gadu. Atrast, 
 
 
 Testa plāns:
-Ievade:          | Sagaidāmais rezultāts: |  Rezultāts C++  | Rezultāts Python |
-dd | mm | yyyy   |                        |                 |                  |
-                 |                        |                 |                  |
- 1   1     1     |    Pirmdiena           |       +         |        +         |
- 
+Ievade:          | Sagaidāmais rezultāts: |  Garais gads?: |  Rezultāts C++  | Rezultāts Python |
+dd | mm | yyyy   |                        |                |                 |                  |
+                 |                        |                |                 |                  |
+ 1   1     1     |    Pirmdiena           |       Nē       |       +         |        +         |
+19   3    571    |    Otrdiena            |       Nē       |       +         |        +         |
+28   10   2020   |    Trešdiena           |       Jā       |       +         |        +         |
+ 6   2    2583   |    Ceturtdiena         |       Nē       |       +         |        +         |
+ 4  5  456789123 |    Piektdiena          |       Nē       |       +         |        +         |
  
