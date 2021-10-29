@@ -73,9 +73,9 @@ int main(){
     int garsgads=garsyyyy(yyyy);
 
     if (garsgads==0) //tiek izsaukta gada garuma noteiksanas funkcija
-        cout<<"isais gads"<<endl;
+        cout<<"Isais gads"<<endl;
     else
-        cout<<"garais gads"<<endl;
+        cout<<"Garais gads"<<endl;
 
     cout<<"Velaties atkartot? 1 / 0 "<<endl; //atkartosanas pieprasijums
     cin>>turpinat;
