@@ -1,7 +1,9 @@
 Izveidot programmu gan C++, gan Python, obligāti izmantojot norādītās vai kādas citas funkcijas. 
 Prasības tādas pašas kā iepriekšējā uzdevumā, precīzāk sk. Laboratorijas darbu noteikumos.
 
-B10. Doti trīs naturāli skaitļi, kas nosaka datumu, mēnesi un gadu. Atrast, kādā nedēļas dienā ir dotais datums, izmantojot šim nolūkam speciālu funkciju. (pēc Gregora kalendāra garie gadi ir tie, kuri dalās ar 4, izņemot tos, kuri dalās ar 100 un nedalās ar 400. Mūsu ēras 1. gada 1. janvāris bija pirmdiena). Risinājumā izmantot funkciju, kas atpazīst garos gadus.
+B10. Doti trīs naturāli skaitļi, kas nosaka datumu, mēnesi un gadu. Atrast, kādā nedēļas dienā ir dotais datums, izmantojot šim nolūkam speciālu funkciju.
+(pēc Gregora kalendāra garie gadi ir tie, kuri dalās ar 4, izņemot tos, kuri dalās ar 100 un nedalās ar 400. Mūsu ēras 1. gada 1. janvāris bija pirmdiena).
+Risinājumā izmantot funkciju, kas atpazīst garos gadus.
 
 
 Testa plāns:
