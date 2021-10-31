@@ -20,7 +20,7 @@ while True:
         print("Nepareizs datums")
         dd = int(input("Ievadi dienu "))
     mm = int(input("Ievadi mēnesi "))
-    if (mm>31 or mm<0):
+    if (mm>12 or mm<0):
         print("Nepareizs mēnesis")
         mm = int(input("Ievadi mēnesi "))    
     yyyy = int(input("Ievadi gadu "))
