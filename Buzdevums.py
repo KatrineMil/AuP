@@ -16,8 +16,17 @@ def nedelasdiena(dd,mm,yyyy):
 while True:
     diena = ["Svetdiena","Pirmdiena","Otrdiena","Tresdiena","Ceturtdiena","Piektdiena","Sestdiena"]
     dd = int(input("Ievadi dienu "))
+    if (dd>31 or dd<0):
+        print("Nepareizs datums")
+        dd = int(input("Ievadi dienu "))
     mm = int(input("Ievadi mēnesi "))
+    if (mm>31 or mm<0):
+        print("Nepareizs mēnesis")
+        mm = int(input("Ievadi mēnesi "))    
     yyyy = int(input("Ievadi gadu "))
+    if (yyyy<0):
+        print("Nepareizs gads")
+        yyyy = int(input("Ievadi gadu "))
     neddd = nedelasdiena(dd,mm,yyyy)
     print(diena[neddd])
     
