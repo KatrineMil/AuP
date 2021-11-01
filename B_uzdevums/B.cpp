@@ -19,6 +19,8 @@ bool garsyyyy(int yyyy){ //funkcija parbauda vai ievaditais gads ir garais gads
         return false;
 
 }
+//sis ir komentars
+
 /// https://stackoverflow.com/questions/6385190/correctness-of-sakamotos-algorithm-to-find-the-day-of-week/6385934#6385934
 int nedelasdiena(int dd, int mm,int yyyy){ //funkcija nosaka nedelas dienu
 
